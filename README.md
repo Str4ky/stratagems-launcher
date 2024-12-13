@@ -1,5 +1,6 @@
 # Stratagems Launcher
-A way to use Stratagems remotly
+A way to use Stratagems remotly<br><br>
+<img src="https://i.imgur.com/tpuMrtY.png" width="250">
 
 ## Installation
 
