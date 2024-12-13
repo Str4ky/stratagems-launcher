@@ -1,0 +1,12 @@
+{
+    "url": "http://192.168.1.15",
+    "server_port": 5000,
+    "web_port": 5500,
+    "keys": {
+        "up": "up",
+        "down": "down",
+        "left": "left",
+        "right": "right",
+        "open": "alt"
+    }
+}

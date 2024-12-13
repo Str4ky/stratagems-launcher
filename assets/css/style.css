@@ -1,0 +1,28 @@
+html {
+    background-color: #101010;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow, .key {
+    padding: 12px;
+}
+
+.arrow img {
+    width: 115px;
+}
+
+.key img {
+    width: 200px;
+}
