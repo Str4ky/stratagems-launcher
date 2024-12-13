@@ -33,5 +33,6 @@ It will look like this
 
 - Download the zip file of the repo under the `Code` button
 - Unzip it and do the config as explained above
-- Run `py script.py` in a cmd prompt
+- Run `pip install -r requirements.txt` in a cmd prompt
+- Run `py script.py` in the same cmd prompt
 - Go to `<local_ip_address>:<web_port>` on your other device's web browser
