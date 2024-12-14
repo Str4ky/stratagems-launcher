@@ -6,7 +6,7 @@ A way to use Stratagems remotely<br><br>
 
 - Head over to the <a href="/releases">releases</a> and download the zip
 - Unzip it and go the extracted folder
-- Open `Stratagems Launcher.exe`
+- Open `launcher.exe`
 - Go to `<local_ip_address>:<web_port>` on your other device's web browser
 
 ## Configuration
