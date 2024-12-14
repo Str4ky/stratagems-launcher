@@ -12,7 +12,8 @@ file = "assets/json/config.json"
 
 with open(file) as f:
     data = json.load(f)
-    url = data["url"].replace("http://", "")
+    url = data["url"]
+    ip = url.replace("http://", "").replace("https://", "")
     server_port = data["server_port"]
     web_port = data["web_port"]
 
@@ -28,11 +29,11 @@ def keypress(key):
         return f"Error: {e}", 400
 
 def run_flask():
-    app.run(host=url, port=server_port)
+    app.run(host=ip, port=server_port)
 
 def run_web_server():
     handler = SimpleHTTPRequestHandler
-    with TCPServer((url, web_port), handler) as httpd:
+    with TCPServer((ip, web_port), handler) as httpd:
         print("Serving website on " + url + ":" + str(web_port))
         httpd.serve_forever()
 
@@ -42,6 +43,6 @@ web_server_thread = threading.Thread(target=run_web_server, daemon=True)
 flask_thread.start()
 web_server_thread.start()
 
-print("Servers are running... Press Ctrl+C to stop.")
+print("Servers are running...")
 flask_thread.join()
 web_server_thread.join()
