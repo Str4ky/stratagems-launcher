@@ -29,6 +29,7 @@ It will look like this
 - Edit the url with your computer's local ip address
 - Edit the ports if you really want to but I suggest you to leave that alone
 - Edit the keys with your ingame keybinds to open and uses stratagems
+- Change your inggame open stratagems list keybing from `hold` to `press`
 
 ## Runinng locally without the releases
 
