@@ -1,5 +1,5 @@
 # Stratagems Launcher
-A way to use Helldivers 2's Stratagems remotely<br><br>
+A way to call Helldivers 2's Stratagems remotely<br><br>
 <img src="https://i.imgur.com/tpuMrtY.png" width="250">
 
 ## Installation
